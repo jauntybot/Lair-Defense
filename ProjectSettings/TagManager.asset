@@ -11,6 +11,11 @@ TagManager:
   - 
   - Water
   - UI
+  - Not Walkable
+  - Walkable
+  - Minion
+  - Hero
+  - Object
   - 
   - 
   - 
@@ -23,11 +28,6 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - Layer 1
-  - Layer 2
-  - Layer 3
   - 
   - 
   - 

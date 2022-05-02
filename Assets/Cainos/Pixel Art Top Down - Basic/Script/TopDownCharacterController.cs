@@ -12,7 +12,7 @@ namespace Cainos.PixelArtTopDown_Basic
 
         private void Start()
         {
-            animator = GetComponent<Animator>();
+            animator = GetComponentInChildren<Animator>();
         }
 
 
