@@ -136,13 +136,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitBoxes:
   - {fileID: 7308457849973618745}
-  ai: {fileID: 4292465333599274273}
-  lairObjects: []
-  alive: 0
   alignment: 1
   hpSlider: {fileID: 3177762083341025514}
   currentHP: 20
   maxHP: 20
+  damage: 2
 --- !u!114 &4292465333599274273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,9 +158,6 @@ MonoBehaviour:
   animator: {fileID: 7308457850500153901}
   moveSpeed: 650
   nextWaypointDistance: 1
-  roamTime: 0
-  randomRoamInterval: 0
-  randomRoamDeviation: 0
   dir: {x: 0, y: 0}
   currentState: 0
   stateRunning: 0
@@ -479,14 +474,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   segments: 18
-  textureDim: 2
-  color: {r: 1, g: 1, b: 1, a: 1}
-  damage: 2
-  force: 550
   angle: 90
   range: 1
   offsetFromOrigin: 0.5
   attackDuration: 0.5
+  textureDim: 2
+  color: {r: 1, g: 1, b: 1, a: 1}
+  damage: 2
+  force: 550
 --- !u!1 &7308457849973618751
 GameObject:
   m_ObjectHideFlags: 0
